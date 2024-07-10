@@ -1,0 +1,31 @@
+name: dars_74_yandex
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_polyline_points: ^2.1.0
+  geolocator: ^12.0.0
+  location: ^7.0.0
+  provider: ^6.1.2
+  result_class: ^1.0.0
+  result_kt: ^1.1.0
+  resultify: ^0.4.0
+  yandex_mapkit: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+
+assets:
+    - assets/
